@@ -7,7 +7,8 @@
   <maintainer email="d.maekawa@rapyuta-robotics.com">Daiki Maekawa</maintainer>
   <license>MIT</license>
   <url type="website">https://openspur.org/redmine/projects/ypspur</url>
-
+  
+  <run_depend>catkin</run_depend>
   <buildtool_depend>automake</buildtool_depend>
   <buildtool_depend>cmake</buildtool_depend>
   <buildtool_depend>libtool</buildtool_depend>
