@@ -1,1 +1,1 @@
-# ypspur-release
+# ypspur
