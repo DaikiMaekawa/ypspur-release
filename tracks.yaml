@@ -15,8 +15,8 @@ tracks:
     patches: indigo
     release_inc: -1
     release_repo_url: https://github.com/cottsay/ypspur-release.git
-    release_tag: :{version}
+    release_tag: 0.0.1
     ros_distro: indigo
     vcs_type: git
     vcs_uri: https://openspur.org/repos/yp-spur.git
-    version: :{auto}
+    version: 0.0.1
