@@ -1,0 +1,12 @@
+Source: ros-indigo-ypspur
+Section: misc
+Priority: extra
+Maintainer: Daiki Maekawa <d.maekawa@rapyuta-robotics.com>
+Build-Depends: debhelper (>= 9.0.0), automake, cmake, libltdl-dev, libtool
+Homepage: https://openspur.org/redmine/projects/ypspur
+Standards-Version: 3.9.2
+
+Package: ros-indigo-ypspur
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, git-core, ros-indigo-catkin
+Description: The ypspur bridge package on ROS
