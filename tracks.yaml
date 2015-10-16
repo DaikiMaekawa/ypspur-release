@@ -19,5 +19,5 @@ tracks:
     release_tag: :{ask}
     ros_distro: indigo
     vcs_type: git
-    vcs_uri: https://openspur.org/repos/yp-spur.git
+    vcs_uri: https://github.com/DaikiMaekawa/ypspur
     version: :{ask}
