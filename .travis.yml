@@ -28,7 +28,7 @@ before_script:
 
 script:
   - cd $CATKIN_WS 
-  - catkin_make
+  - catkin_make_isolated
   #- catkin init
   # Enable install space
   #- catkin config --install
