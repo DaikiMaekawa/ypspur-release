@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/DaikiMaekawa/ypspur-release.svg?branch=master)](https://travis-ci.org/DaikiMaekawa/ypspur-release)
+
 ## ypspur (indigo) - 0.0.1-3
 
 The packages in the `ypspur` repository were released into the `indigo` distro by running `/usr/local/bin/bloom-release ypspur --track indigo --rosdistro indigo` on `Thu, 17 Sep 2015 18:55:36 -0000`
