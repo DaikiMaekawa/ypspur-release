@@ -18,11 +18,17 @@ install:
   - sudo rosdep init
   - rosdep update
   - rosdep install --from-paths ./ -i -y --rosdistro $CI_ROS_DISTRO
-script:
+
+before_script:
   - source /opt/ros/$CI_ROS_DISTRO/setup.bash
   - mkdir -p $CATKIN_WS_SRC
   - ln -s $TRAVIS_BUILD_DIR $CATKIN_WS_SRC
-  - cd $CATKIN_WS
+  - cd $CATKIN_WS_SRC
+  - catkin_init_workspace
+
+script:
+  - cd $CATKIN_WS 
+  - catkin_make
   #- catkin init
   # Enable install space
   #- catkin config --install
