@@ -13,11 +13,11 @@ tracks:
     devel_branch: null
     last_version: 0.0.1
     name: upstream
-    patches: indigo
+    patches: null
     release_inc: '4'
     release_repo_url: https://github.com/DaikiMaekawa/ypspur-release.git
-    release_tag: :{ask}
+    release_tag: :{version}
     ros_distro: indigo
     vcs_type: git
-    vcs_uri: https://github.com/DaikiMaekawa/ypspur
-    version: :{ask}
+    vcs_uri: https://github.com/DaikiMaekawa/ypspur.git
+    version: :{auto}
