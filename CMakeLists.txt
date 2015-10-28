@@ -9,7 +9,8 @@ message("CMAKE_PREFIX_PATH: ${CMAKE_PREFIX_PATH}")
 
 ExternalProject_Add(${PROJECT_NAME}
     PREFIX ${CMAKE_CURRENT_BINARY_DIR}/ypspur
-    GIT_REPOSITORY https://github.com/DaikiMaekawa/ypspur
+    SOURCE_DIR ${CMAKE_SOURCE_DIR}
+    #GIT_REPOSITORY https://github.com/DaikiMaekawa/ypspur
     CONFIGURE_COMMAND <SOURCE_DIR>/configure --prefix=${CMAKE_INSTALL_PREFIX}
     BUILD_COMMAND $(MAKE)
     INSTALL_COMMAND echo "Install ypspur libs"
