@@ -1,3 +1,24 @@
+## ypspur (indigo) - 0.1.1-0
+
+The packages in the `ypspur` repository were released into the `indigo` distro by running `/usr/local/bin/bloom-release ypspur --track indigo --rosdistro indigo --new-track` on `Wed, 28 Oct 2015 10:50:18 -0000`
+
+The `ypspur` package was released.
+
+Version of package(s) in repository `ypspur`:
+- upstream repository: https://github.com/DaikiMaekawa/ypspur.git
+- release repository: https://github.com/DaikiMaekawa/ypspur-release.git
+- rosdistro version: `0.0.1-4`
+- old version: `0.0.1-4`
+- new version: `0.1.1-0`
+
+Versions of tools used:
+- bloom version: `0.5.20`
+- catkin_pkg version: `0.2.10`
+- rosdep version: `0.11.2`
+- rosdistro version: `0.4.2`
+- vcstools version: `0.1.37`
+
+
 # ypspur-release
 
 [![Build Status](https://travis-ci.org/DaikiMaekawa/ypspur-release.svg?branch=master)](https://travis-ci.org/DaikiMaekawa/ypspur-release)
